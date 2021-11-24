@@ -49,6 +49,13 @@ body {
         background-color: hsl(0, 0%, 95%);
         color: hsl(31, 77%, 52%);
     }
+
+    .btn1 button:hover {
+        color: hsl(0, 0%, 95%);
+        border: hsl(0, 0%, 95%) solid 2px;
+        background-color: hsl(31, 77%, 52%);
+        cursor: pointer;
+    }
     
     .suvs {
         background-color: hsl(184, 100%, 22%);
@@ -58,6 +65,13 @@ body {
     .btn2 button {
         background-color: hsl(0, 0%, 95%);
         color: hsl(184, 100%, 22%);
+    }
+
+    .btn2 button:hover {
+        color: hsl(0, 0%, 95%);
+        border: hsl(0, 0%, 95%) solid 2px;
+        background-color: hsl(184, 100%, 22%);
+        cursor: pointer;
     }
     
     .luxury {
@@ -70,6 +84,13 @@ body {
     .btn3 button {
         background-color: hsl(0, 0%, 95%);
         color: hsl(179, 100%, 13%);
+    }
+
+    .btn3 button:hover {
+        color: hsl(0, 0%, 95%);
+        border: hsl(0, 0%, 95%) solid 2px;
+        background-color: hsl(179, 100%, 13%);
+        cursor: pointer;
     }
 }
 
@@ -113,6 +134,13 @@ body {
         color: hsl(31, 77%, 52%);
     }
 
+    .btn1 button:hover {
+        color: hsl(0, 0%, 95%);
+        border: hsl(0, 0%, 95%) solid 2px;
+        background-color: hsl(31, 77%, 52%);
+        cursor: pointer;
+    }
+
     .suvs {
         background-color: hsl(184, 100%, 22%);
         padding: 50px;
@@ -121,6 +149,13 @@ body {
     .btn2 button {
         background-color: hsl(0, 0%, 95%);
         color: hsl(184, 100%, 22%);
+    }
+
+    .btn2 button:hover {
+        color: hsl(0, 0%, 95%);
+        border: hsl(0, 0%, 95%) solid 2px;
+        background-color: hsl(184, 100%, 22%);
+        cursor: pointer;
     }
 
     .luxury {
@@ -133,6 +168,13 @@ body {
     .btn3 button {
         background-color: hsl(0, 0%, 95%);
         color: hsl(179, 100%, 13%);
+    }
+
+    .btn3 button:hover {
+        color: hsl(0, 0%, 95%);
+        border: hsl(0, 0%, 95%) solid 2px;
+        background-color: hsl(179, 100%, 13%);
+        cursor: pointer;
     }
     
 }
