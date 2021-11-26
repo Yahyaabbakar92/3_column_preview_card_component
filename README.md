@@ -62,7 +62,7 @@ Although I used flexbox to make this card, I still need to try and use css grid 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Yahyaabbakar92](https://www.frontendmentor.io/profile/Yahyaabbakar92)
 
 ## Acknowledgments
 
