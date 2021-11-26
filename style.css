@@ -9,7 +9,6 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 
-@media screen and (max-width: 400px) {
     h1 {
         text-transform: uppercase;
         color: hsl(0, 0%, 95%);
@@ -41,7 +40,7 @@ body {
     
     button {
         padding: 20px 30px;
-        border: none;
+        border: hsl(0, 0%, 95%) solid 2px;
         border-radius: 50px;
     }
     
@@ -92,89 +91,26 @@ body {
         background-color: hsl(179, 100%, 13%);
         cursor: pointer;
     }
-}
 
-@media screen and (min-width: 1400px) {
-    h1 {
-        text-transform: uppercase;
-        color: hsl(0, 0%, 95%);
-        font-family: 'Big Shoulders Display', cursive;
-        margin-top: 30px;
-        margin-bottom: 30px;
+@media screen and (min-width: 900px) {
+    
+    .card {
+        display: flex;
+        flex-direction: row;
+        margin: 160px 240px;
     }
 
     p {
-        color: hsla(0, 0%, 100%, 0.75);
-        font-family: 'Lexend Deca', sans-serif;
-        line-height: 1.9;
-        margin-bottom: 85px;
-    }
-
-    .card {
-        display: flex;
-        margin: 160px 240px;
-        border-radius: 8px;
+        margin-bottom: 80px;
     }
 
     .sedans {
-        background-color: hsl(31, 77%, 52%);
-        border-top-left-radius: 8px;
+        border-top-right-radius: 0;
         border-bottom-left-radius: 8px;
-        padding: 50px;
-    }
-
-    button {
-        padding: 20px 30px;
-        border: none;
-        border-radius: 50px;
-    }
-
-    .btn1 button {
-        background-color: hsl(0, 0%, 95%);
-        color: hsl(31, 77%, 52%);
-    }
-
-    .btn1 button:hover {
-        color: hsl(0, 0%, 95%);
-        border: hsl(0, 0%, 95%) solid 2px;
-        background-color: hsl(31, 77%, 52%);
-        cursor: pointer;
-    }
-
-    .suvs {
-        background-color: hsl(184, 100%, 22%);
-        padding: 50px;
-    }
-
-    .btn2 button {
-        background-color: hsl(0, 0%, 95%);
-        color: hsl(184, 100%, 22%);
-    }
-
-    .btn2 button:hover {
-        color: hsl(0, 0%, 95%);
-        border: hsl(0, 0%, 95%) solid 2px;
-        background-color: hsl(184, 100%, 22%);
-        cursor: pointer;
     }
 
     .luxury {
-        background-color: hsl(179, 100%, 13%);
+        border-bottom-left-radius: 0;
         border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        padding: 50px;
     }
-
-    .btn3 button {
-        background-color: hsl(0, 0%, 95%);
-        color: hsl(179, 100%, 13%);
-    }
-
-    .btn3 button:hover {
-        color: hsl(0, 0%, 95%);
-        border: hsl(0, 0%, 95%) solid 2px;
-        background-color: hsl(179, 100%, 13%);
-        cursor: pointer;
-    }
-    
 }
